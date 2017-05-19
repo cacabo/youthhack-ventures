@@ -1,0 +1,328 @@
+/*general formatting*/
+
+body {
+    color: #404040;
+}
+
+
+/*nav*/
+
+nav.navbar {
+    background: white;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    height: 26px;
+    padding: 12px;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+.container.head {
+    padding: 0;
+}
+
+
+/*background image and intro text*/
+
+.background {
+    position: absolute;
+    background: gainsboro;
+    top: 0;
+    height: 70vh;
+    width: 100%;
+    z-index: -2;
+}
+
+.background-cover {
+    position: absolute;
+    background: white;
+    height: 5vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.background-cover.c1 {
+    top: 55vh;
+    opacity: 0.25;
+}
+
+.background-cover.c2 {
+    top: 60vh;
+    opacity: 0.5;
+}
+
+.background-cover.c3 {
+    top: 65vh;
+    opacity: 0.75;
+}
+
+.fade1, .fade2, .fade3 {
+    width: 100%;
+    height: 5vh;
+    background: lightgray;
+}
+
+.fade1 {
+    opacity: .25;
+}
+
+.fade2 {
+    opacity: .5;
+}
+
+.fade3 {
+    opacity: .75;
+}
+
+.background-shift {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+.intro {
+    padding-bottom: 5vh;
+}
+
+
+/*steps*/
+
+.step-wrapper {
+    padding: 2.5vh;
+    padding-bottom: 7.5vh;
+}
+
+.step {
+    padding: 2.5vh;
+    box-shadow: 1px 1px 6px gainsboro;
+    transition: all 0.25s ease;
+}
+
+.step:hover {
+    box-shadow: 1px 1px 4px darkgray;
+}
+
+.step .number {
+    z-index: -1;
+    top: 2.5vh;
+    right: 5vh;
+    position: absolute;
+    font-size: 600%;
+    color: gainsboro;
+}
+
+
+/*sections*/
+
+.section {
+    padding: 5vh 2.5vh;
+}
+
+
+/*partners*/
+
+.partners, .team {
+    background: lightgray;
+}
+
+.partners-wrapper-wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.partners-wrapper {
+    display: inline-block;
+}
+
+.partners img {
+    margin: 2.5vh;
+    height: 15vh;
+    display: inline-block;
+}
+
+
+/*team*/
+
+.people {
+    padding-top: 2.5vh;
+}
+
+.person-wrapper {
+    padding: 2.5vh;
+}
+
+.person {
+    background: white;
+    box-shadow: 1px 1px 4px #606060;
+    padding: 0;
+}
+
+.person .content {
+    padding: 2.5vh;
+    padding-top: 0;
+}
+
+.person a {
+    color: gray;
+    transition: all 0.25s ease;
+}
+
+.person a:hover, .person a:active, .person a:visited {
+    color: #404040;
+    text-decoration: none;
+}
+
+.person ul.social {
+    padding: 0;
+}
+
+.person ul.social li {
+    transition: all 0.25s ease;
+    padding-right: 3vh;
+}
+
+.person ul.social li i {
+    font-size: 125%;
+    color: gray;
+    transition: all 0.25s ease;
+}
+
+.person ul.social li i:hover {
+    color: #404040;
+}
+
+.person p {
+    margin-bottom: 3vh;
+}
+
+.person h2 {
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 0;
+    padding-bottom: 1.5vh;
+}
+
+.person h3 {
+    margin-top: 0;
+    padding-top: 1.5vh;
+    font-size: 125%;
+}
+
+
+/*contact*/
+
+
+/*footer*/
+
+footer {
+    padding: 2.5vh 5vw;
+    width: 100%;
+    background: #004080;
+    color: white;
+}
+
+footer a {
+    transition: all 0.25s ease;
+    color: white;
+}
+
+footer a:hover, footer a:active, footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul, .person ul {
+    list-style: none;
+    padding: 0;
+    padding: 2.5vh 0;
+    margin: 0;
+    display: inline-block;
+}
+
+footer li, .person li {
+    width: auto;
+    font-size: 125%;
+    display: inline-block;
+}
+
+footer .links li, .person li {
+    padding-right: 2.5vw;
+}
+
+footer .links li .last {
+    padding-right: 0;
+}
+
+footer .social {
+    float: right;
+    color: white;
+    padding: 1.25vh 0;
+}
+
+footer .social li {
+    margin-left: 2vw;
+    border-radius: 100%;
+    border: 2px solid white;
+    text-align: center;
+    vertical-align: bottom;
+    height: 36px;
+    width: 36px;
+    padding: 4px;
+    transition: all 0.25s ease;
+}
+
+footer .social li i {
+    transition: all 0.25s ease;
+}
+
+footer .social li:hover {
+    background: white;
+}
+
+footer .social li:hover i {
+    color: #004080;
+}
+
+footer .social li .first {
+    padding-left: 0;
+}
+
+.line {
+    margin: 0;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+footer p {
+    padding: 2.5vh 0;
+}
+
+.footer-bottom {
+    padding: 1vh 5vw;
+    width: 100%;
+    background: #00264d;
+}
+
+.footer-bottom p {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.footer-bottom a {
+    color: #0059b3;
+    transition: all 0.25s ease;
+}
+
+.footer-bottom a:hover {
+    color: #0066cc;
+}
